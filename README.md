@@ -1,4 +1,4 @@
-# Automatec-Barn-Door-Tracker
+# Automated-Barn-Door-Tracker
 
 Astrophotography typically starts with a mount or tracker that can counteract the Earth's rotation to allow long exposure photography. The price for an entry level, commercial tracker capable of holding a DSLR camera can be $350+ USD. DIY trackers (typically called Barn Door Trackers) made of two pieces of wood, a bolt, and hand power to rotate a nut to drive the tracker have been developed. Nico Carver (YouTube Nebula Photos) has such a device with plans and how-to use it here: https://www.youtube.com/watch?v=P_qqLA0WKJg.
 
