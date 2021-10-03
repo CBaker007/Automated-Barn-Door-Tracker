@@ -1,5 +1,8 @@
 Readme.txt
 
+NEVER CONNECT THE USB TO THE MICROPROCESSOR/DEV BOARD WHILE IT IS CONNECTED TO THE STEPPER MOTOR OR THE BATTERY!!!
+NOT RESPONSIBLE FOR ANY DAMAGE TO YOUR USB PORT OR THE MP!!!!
+
 This is the pre-compiled binary for the ESP32 micropocessor and pinouts as described in the sketch:
 
 - Board Info
@@ -12,8 +15,10 @@ This is the pre-compiled binary for the ESP32 micropocessor and pinouts as descr
          ^ 4 MB Flash; 520KB SRAM; 448KB ROM; 0KB PSRAM; 240 MHz
          ^ MP Datasheet: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
       + There are several specific Expressif ESP32 MP Chips (like ESP32-WROOM-32D) but a whole slew of development boards
-        all with different pinouts and voltages.  It is very important that your adjust your particular wiring to reflect this,
-        as well as setting the pin references in this file below.
+        all with different pinouts and voltages.  It is very important that you adjust your particular wiring to reflect this,
+        as well as setting the pin references in this file below.  The voltage of this board supports 5.0v (not 3.3v) so the battery
+        battery can power the MP and Stepper Motor without a voltage regulator.  Recommended to stick with a 5.0v board where possible 
+        to avoid power issues.
       + This may run on future releases for the ESP32-WROOM-32 chip (E, F, etc.) but if you have issues, should re-compile a version
         specific for your version of the chip.
         
