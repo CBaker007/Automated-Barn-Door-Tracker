@@ -14,6 +14,8 @@ This is the pre-compiled binary for the ESP32 micropocessor and pinouts as descr
       + There are several specific Expressif ESP32 MP Chips (like ESP32-WROOM-32D) but a whole slew of development boards
         all with different pinouts and voltages.  It is very important that your adjust your particular wiring to reflect this,
         as well as setting the pin references in this file below.
+      + This may run on future releases for the ESP32-WROOM-32 chip (E, F, etc.) but if you have issues, should re-compile a version
+        specific for your version of the chip.
         
       + This is the specific board this binary was developed and tested on though other boards with the same specs should work:
         https://www.amazon.com/gp/product/B0718T232Z/
