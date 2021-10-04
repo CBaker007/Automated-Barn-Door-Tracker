@@ -10,6 +10,12 @@ Initial build based on Nico Carver's Barn Door Tracker:
   * Since he was from Scotland, it is sometimes referred to as the Scotch Mount.  
   * More recently commonly referred to as a Barn Door Tracker.
 
+NOTES:
+1) These parts listed are not necessarily the cheapest place to obtain them.   It was decided to show the parts
+   for the most common, easiest to get locations in the US, rather than numerous, smaller speciality stores.
+2) It may be possible to find these exact parts or other, same spec parts from other locations like AliExpress,
+   eBay, Arduino Speciality stores, etc.  Just make sure the requirements of alternative parts are the same.
+
 ////////////
 // Amazon //
 ////////////
@@ -67,8 +73,9 @@ Initial build based on Nico Carver's Barn Door Tracker:
   ///////////////////
   /// Assumptions ///
   ///////////////////
-  * Have a solid tripod.
-  * Have a ball head.
+  * Have AA Batteries x4
+  * Have a sturdy tripod to mount the Barn Door Tracker on.
+  * Have a ball head for your camera.
     One option if you don't have one:
     https://www.ebay.com/itm/360-Degree-Mini-Tripod-Ball-Head-Ball-head-Compass-with-Quick-release-Plate-BK03-/112014868235
   * Have a camera and wide-field lens (DSLR and sub 100mm FL lens or a cell phone with long exposure capabilites)
