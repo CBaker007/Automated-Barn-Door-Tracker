@@ -8,7 +8,7 @@ NOTES:
      + If we could use the MP power, we could run the whole system from a USB cable.
  - Board Info
      + Written for the ESPRESSIF ESP32.
-     + Get microprocessor / board definitions for setting up in Arduino IDE from 
+     + Get microprocessor / board definitions for setting up in Arduino IDE by following 
        https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#before-installing
      + ESP32-WROOM-32D Specs (Specific board datasheet for the board developed on): http://www.hiletgo.com/ProductDetail/1906566.html)
          ^ WiFi = 802.11 b/g/n; BR/EDR + Bluetooth LE v4.2
@@ -20,10 +20,13 @@ NOTES:
         as well as setting the pin references in this file below.
  - OTA Updates
       + Running AsyncWebServer for better webpage handling - https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/soft-access-point-class.html
+      + https://www.arduino.cc/reference/en/libraries/asyncelegantota/
       + Following examples from AsyncElegantOTA to do OTA Updates.
       + Need to add libraries below to use these functions (download zip and install in Arduino IDE Libraries):
-          ^ ESPAsyncWebServer.h: https://github.com/me-no-dev/ESPAsyncWebServer
-          ^ AsyncElegantOTA.h: https://github.com/me-no-dev/AsyncTCP
+          ^ In Arduino IDE choose Sketch/Include Library/Manage Libraries/Filter for "AsyncElegantOTA" and install latest version.
+          ^ In Arduino IDE choose Sketch/Include Lib/Add .ZIP Library install the following two downloads:
+          ^ ESPAsyncWebServer.h: Download ZIP from https://github.com/me-no-dev/ESPAsyncWebServer
+          ^ AsyncElegantOTA.h: Download ZIP from https://github.com/me-no-dev/AsyncTCP
 */
 
 //GLOBAL DEFINITIONS
