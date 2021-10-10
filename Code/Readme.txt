@@ -1,6 +1,23 @@
 Automated Barn Door Tracker - Compling Code Readme.txt
 
-In order to compile the code, please note the following before proceeding:
+By default, to program an Ardunio microprocessor, you must flashed with code onto it.  Typically, to
+flash the code you must either:
+    A) Have the code complied by a compiler (Arduino IDE in our case) and then immediately flashed 
+       onto the microprocessor by the same compiler, or 
+    B) Have special code placed on the microprocessor that allows pre-compiled code to be downloaded 
+       and flashed directly onto it. (Flashing pre-complied code on a blank microprocessor without
+       this special code already on it, is possible but it takes a bit of effort.
+
+This project has code built into all versions that allows this direct flashing of pre-compiled code,
+called "Over the Air" (OTA) flashing via WiFi.  So once you get the first copy flashed onto the 
+microprocessor, you don't have to complie and flash future versions.  Instead you can download new
+pre-compiled versions from here and flash it directly from the Automated Barn Door Tracker (ABDT) 
+webpage on the microprocessor.
+
+But your new microprocessor must have an initial version of the ABDT code flashed onto it and that still
+requires compiling / flashing using the Arduino IDE.
+
+In order to compile and flash the ABDT code in the Arduino IDE, please note the following before proceeding:
     1) These directions were written based on compiling under Windows 10 using Arduino IDE (ver 1.8.15)
        running on an ExpressIF ESP32 microprocessor with WiFi capabilities.  See the code and Parts List
        for exact processor specifications.
