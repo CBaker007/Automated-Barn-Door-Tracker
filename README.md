@@ -8,4 +8,5 @@ Current / near future plans are:
 1) Utilize dual core microprocessors to off-load all tracking functions to a dedicated core.
 2) Allow for customization and user-defined settings for fine tuning the tracking rates, WiFi settings, and UI. 
 3) Use an inexpensive accelerometer to further refine the speed of the motor to more precisely match the Earth's rotation (closed loop system).
-4) Utilize an inexpensive ESP32 camera to aid in polar alignment.
+4) Slightly modify the design to create a table-top version that does not require a tripod.
+5) Utilize an inexpensive ESP32 camera to aid in polar alignment.
