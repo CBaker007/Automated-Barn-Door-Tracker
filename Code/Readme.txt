@@ -12,10 +12,13 @@ In order to compile the code, please note the following:
     4) The sketch uses Over the Air Updates (OTA), AKA - Updating the code via WiFi.  In particular, we are
        using the AsyncElegantOTA running an AsyncWebServer for better webpage handling. These functions
        requires several prerequisite libraries be installed for the code to compile.
-       To add the libraries, download the zip file (look for Code/Download ZIP) from the links below.
-       Save the ZIP files to your computer. Then in Arduino IDE under Sketch, Include Library, Add .ZIP Libary
-       and add each one:
-       ^ ESPAsyncWebServer.h: https://github.com/me-no-dev/ESPAsyncWebServer
-       ^ AsyncElegantOTA.h: https://github.com/me-no-dev/AsyncTCP
+       a) In Arduino IDE choose Sketch/Include Library/Manage Libraries/Filter for "AsyncElegantOTA" and install 
+          the latest version.
+       b) Download and add these two libraries: Download the zip file (look for Code/Download ZIP) from the 
+          links below. Save each ZIP file to your computer (one for each link). Then in Arduino IDE under 
+          Sketch, Include Library, Add .ZIP Libary and add each one:
+          ^ ESPAsyncWebServer.h: https://github.com/me-no-dev/ESPAsyncWebServer
+          ^ AsyncElegantOTA.h: https://github.com/me-no-dev/AsyncTCP
 
+When you download the Automated Barn Door Tracker code, open it in Arduino IDE and it should compile.
 
