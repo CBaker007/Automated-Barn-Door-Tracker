@@ -1,4 +1,6 @@
-In order to compile the code, please note the following:
+Automated Barn Door Tracker - Compling Code Readme.txt
+
+In order to compile the code, please note the following before proceeding:
     1) These directions were written based on compiling under Windows 10 using Arduino IDE (ver 1.8.15)
        running on an ExpressIF ESP32 microprocessor with WiFi capabilities.  See the code and Parts List
        for exact processor specifications.
