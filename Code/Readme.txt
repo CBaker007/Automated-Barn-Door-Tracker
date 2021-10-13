@@ -28,7 +28,9 @@ In order to compile and flash the ABDT code in the Arduino IDE, please note the 
        guide below for downloading and install them in Arduino IDE.  Just follow the directions for installing from
        Board Manager and no need to follow any OS specific directions:
        https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#before-installing
-    4) The sketch uses Over the Air Updates (OTA), AKA - Updating the code via WiFi.  In particular, we are
+    4) You need to install the stepper library we use.  In Arduino IDE choose Sketch/Include Library/Manage 
+       Libraries/Filter for "AccelStepper" and install the latest version.
+    5) The sketch uses Over the Air Updates (OTA), AKA - Updating the code via WiFi.  In particular, we are
        using the AsyncElegantOTA running an AsyncWebServer for better webpage handling. These functions
        requires several prerequisite libraries be installed for the code to compile.
        a) In Arduino IDE choose Sketch/Include Library/Manage Libraries/Filter for "AsyncElegantOTA" and install 
@@ -38,6 +40,9 @@ In order to compile and flash the ABDT code in the Arduino IDE, please note the 
           Sketch, Include Library, Add .ZIP Libary and add each one:
           ^ ESPAsyncWebServer.h: https://github.com/me-no-dev/ESPAsyncWebServer
           ^ AsyncElegantOTA.h: https://github.com/me-no-dev/AsyncTCP
+     6) You must change the microprocessor we are using in the board definitions.
+        In the Arduino IDE, under Tool, Board, select "NodeMCU-32S" (under ExpressIF) if using the recommended
+        microprocessor from the parts list.
 
 When you download the Automated Barn Door Tracker code, open it in Arduino IDE and it should compile.
 
